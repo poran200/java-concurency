@@ -25,3 +25,17 @@ i
 9src/main/java/com/demo/thread/memorymodel/MyRunnable.java,a/4/a4d21bfc1f0d391fd8141d7d555db4bc415aa7a0
 n
 >src/main/java/com/demo/thread/memorymodel/SeparateObjects.java,6/3/6309bfc11d4c783f68943fbba03cf73e273b8400
+r
+Bsrc/main/java/com/demo/thread/syncronized/SyncronizedExchnger.java,7/b/7b71cc0ae7217cacb44e4736f7ee64b73f7acc10
+w
+Gsrc/main/java/com/demo/thread/syncronized/SynchronizeExchangerMain.java,0/2/02f8ba61f9e2ce0701c1d3a3a04d800e0eb7b636
+e
+5src/main/java/com/demo/thread/ThreadLocalExample.java,6/6/662dca6d6269151dc8df986ecc94f51e3df7ea75
+9
+	ReadMe.md,a/2/a225a7e79496c5a1d847c78c3db651eb302ec867
+i
+9src/main/java/com/demo/thread/syncronized/Reentrance.java,7/0/7008ca2d326cdbd0849c9a023b88ab45e2077c1a
+z
+Jsrc/main/java/com/demo/thread/syncronized/StaticSynchronizedExchanger.java,7/8/78bdf4defcd1db34f8d9f724e18b9e7dfcef1f33
+s
+Csrc/main/java/com/demo/thread/syncronized/MixedSynchronization.java,3/2/3268eb27c8f253bc5efa483531fbefe7979136d5

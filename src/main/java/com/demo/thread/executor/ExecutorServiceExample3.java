@@ -12,7 +12,7 @@ public class ExecutorServiceExample3 {
             String message = future.get();
             System.out.println(message);
         } catch (InterruptedException | ExecutionException e) {
-            e.printStackTrace();
+            Thread.currentThread().interrupt();
         }
         executorService.shutdown();
     }
