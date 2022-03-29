@@ -24,7 +24,7 @@ public class Runnable1 implements Runnable {
             Thread.currentThread().interrupt();
         }
 
-        System.out.println(threadName + "attempting to lock Lock 2");
+        System.out.println(threadName + " attempting to lock Lock 2");
         lock2.lock();
         System.out.println(threadName + " locked Lock 2");
         // do the work - now that both locks have been acquired (locked by this thread)

@@ -15,8 +15,8 @@ public class Runnable2 implements Runnable {
     @Override
     public void run() {
         String threadName = Thread.currentThread().getName();
-        System.out.println(threadName + "attempting to lock Lock 2");
-        lock2.lock();
+        System.out.println(threadName + "attempting to lock Lock 1");
+        lock1.lock();
         System.out.println(threadName + " locked Lock 1");
         try {
             Thread.sleep(3000);
@@ -25,14 +25,14 @@ public class Runnable2 implements Runnable {
         }
 
         System.out.println(threadName + "attempting to lock Lock 1");
-        lock1.lock();
+        lock2.lock();
         System.out.println(threadName + " locked Lock 2");
         // do the work - now that both locks have been acquired (locked by this thread)
         //unlock
-        System.out.println(threadName + "unlocking Lock 1");
-        lock1.unlock();
         System.out.println(threadName + "unlocking Lock 2");
         lock2.unlock();
+        System.out.println(threadName + "unlocking Lock 1");
+        lock1.unlock();
 
     }
 }

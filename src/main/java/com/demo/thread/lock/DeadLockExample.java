@@ -4,6 +4,12 @@ import java.util.concurrent.locks.Lock;
 import java.util.concurrent.locks.ReentrantLock;
 
 public class DeadLockExample {
+    /*
+     DeadLock Prevention & Detection
+     -> Lock Reordering
+     -> Timeout Backoff
+     -> Deadlock Detection
+     */
     public static void main(String[] args) {
         Lock lock = new ReentrantLock();
         Lock lock1 = new ReentrantLock();
